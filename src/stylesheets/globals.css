@@ -1,0 +1,40 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-section {
+    background: #f8f9fa;
+    padding: 60px 0 40px 0;
+    text-align: center;
+  }
+  .hero-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2d3436;
+  }
+  .hero-section p {
+    font-size: 1.2rem;
+    color: #636e72;
+  }
+  .about-section {
+    background: #fff;
+    padding: 40px 0;
+  }
+  .products-section {
+    background: #f1f2f6;
+    padding: 40px 0;
+  }
+  .product-card {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    transition: transform 0.2s;
+  }
+  .product-card:hover {
+    transform: translateY(-5px) scale(1.03);
+  }
+  .contact-section {
+    background: #fff;
+    padding: 40px 0;
+  }
